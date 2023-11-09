@@ -1,7 +1,7 @@
 # NetWatch
 NetWatch Guardian: Sistema Inteligente de Detecção de Anomalias em Redes
 
-
+```
 │
 ├── data/
 │   ├── raw_data/             # Dados brutos ou arquivos de tráfego de rede
@@ -21,3 +21,4 @@ NetWatch Guardian: Sistema Inteligente de Detecção de Anomalias em Redes
 ├── web_app/                  # Pasta para possíveis elementos da interface web
 │
 └── README.md                 # Documentação do projeto
+```

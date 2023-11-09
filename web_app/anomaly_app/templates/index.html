@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detecção de Anomalias</title>
+</head>
+<body>
+    <h1>Detecção de Anomalias em Rede</h1>
+    <form method="post" action="{% url 'results' %}">
+        {% csrf_token %}
+        <label for="avg_packet_size">Tamanho Médio do Pacote:</label>
+        <input type="text" name="avg_packet_size"><br>
+        <label for="total_packets">Total de Pacotes:</label>
+        <input type="text" name="total_packets"><br>
+        <input type="submit" value="Detectar Anomalia">
+    </form>
+</body>
+</html>
